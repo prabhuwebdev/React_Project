@@ -1,0 +1,159 @@
+/* .section {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+
+.inner{
+  display: flex;
+  justify-content:space-around;
+  box-sizing: border-box;
+  border: 2px solid black;
+  flex-wrap: wrap;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+  flex-direction: column;
+  gap: 30;
+  
+}
+
+.category-card{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  align-items:center;
+  border: 2px solid black;
+  
+}
+.card-img{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+.card-body{
+  text-align: center;
+}
+
+.inner.title{
+  text-align: center;
+  padding: 50px;
+  height: auto;
+}
+.section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  
+
+}
+.image{
+  background-image: url('../Images/Background-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+} 
+ */
+
+
+ .section {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.image {
+  background-image: url('../Images/original_background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Ensures the height is based on content */
+  
+  box-sizing: border-box;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px; /* Adds space between cards */
+  box-sizing: border-box;
+  height: auto; /* Ensures no unnecessary stretching */
+  padding: 20px; /* Adjust padding for spacing */
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  align-items: center;
+  /* border: 2px solid black; */
+  height: auto; /* Adjusts to content size */
+  transition: transform 0.3s ease;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px; /* Maintains consistent height */
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+  
+  
+}
+
+.cards {
+  display: flex;
+  justify-content: center; /* Centers content */
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust spacing */
+  width: 100%; /* Ensures proper layout */
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+/* .image:hover{
+ top: 0%;
+ left: 0%;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.5);
+  
+} */
+
+/* .category-card:hover{
+  transform: scale(1.1);
+} */

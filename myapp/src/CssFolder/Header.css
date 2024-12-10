@@ -1,0 +1,108 @@
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffb703;
+    
+}
+.header ul{
+    display: flex;
+    list-style: none;
+   
+    
+}
+.header h3{
+    margin-top: 28px;
+}
+
+.header button{
+    border: none;
+    background-color: transparent;
+    padding: 9px;
+    margin-top: 10px;
+    border-radius: 6px;
+    margin-right: 8px;
+}
+.header button:hover{
+    background-color: #ced4da;
+    transition: 0.5s;
+    
+}
+
+.header h3 svg{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.header ul li{
+    font: bold;
+}
+
+.header input{
+    padding: 10px;
+    margin:22px 0px;
+    border-radius: 7px;
+    border: 2px white;
+    
+}
+.search {
+    display: flex;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    
+} */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffd60a;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo h1{
+    height: 50px;
+    
+}
+
+.logo h3{
+    font-size:x-large;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.user input{
+    display: flex;
+    padding: 9px;
+    border-radius: 32px;
+    border: 1px solid yellow;
+    
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user button{
+display: flex;
+margin: 10px;
+padding: 6px;
+background: transparent;
+font-weight:600;
+border-radius: 6px;
+border: none;
+
+
+}
+.user button:hover{
+    background-color: #fb8500;
+    color: white;
+    transition: 0.5s;
+    
+}
