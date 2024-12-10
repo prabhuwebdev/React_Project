@@ -1,5 +1,5 @@
 import Usefetch1 from "./Singlefetch"
-import { useParams } from "react-router-dom"
+import { useParams } from "react-router-dom";
 
 
 const SingleProduct = () => {
