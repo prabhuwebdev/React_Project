@@ -1,6 +1,6 @@
 import { useEffect,useState } from "react"
 import Card from 'react-bootstrap/Card'
-import '../CssFolder/women.css'
+import '../CssFolder/Women.css'
 import { useNavigate } from "react-router-dom"
 
 const Womens = () => {
